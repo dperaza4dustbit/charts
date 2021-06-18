@@ -1,0 +1,11 @@
+chart:
+  name: hashicorp-helm-chart
+  shortDescription: This is a test repo
+publicPgpKey: null
+users:
+- githubUsername: mmulholla
+- githubUsername: baijum
+- githubUsername: dperaza4dustbit
+vendor:
+  label: hashicorp-test
+  name: Hashicorp Vault Test
