@@ -19,3 +19,6 @@ def main():
                                         help="API URL for the pull request")
     args = parser.parse_args()
     ensure_pull_request_not_merged(args.api_url)
+
+if __name__=="__main__":
+    main()
