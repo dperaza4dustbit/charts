@@ -31,4 +31,34 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/hashicorp-vault-0.12.2/hashicorp-vault-0.12.2.tgz
     version: 0.12.2
-generated: '2021-06-21T12:20:09.827898+00:00'
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: '4.7'
+      charts.openshift.io/digest: sha256:71cc3319dc3b6fb75543e1d8aaa4f5bb9889b000925c7e32263fc1c1f72798a7
+      charts.openshift.io/lastCertifiedTimestamp: '2021-06-21T18:33:44.547939+00:00'
+      charts.openshift.io/provider: Hashicorp Vault Test
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2021-06-21T18:34:20.851517+00:00'
+    apiVersion: v2
+    appVersion: 1.7.2
+    description: Official HashiCorp Vault Chart
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.14.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/dperaza4dustbit/charts/releases/download/hashicorp-vault-0.12.3/hashicorp-vault-0.12.3.tgz
+    version: 0.12.3
+generated: '2021-06-21T18:34:20.851517+00:00'
