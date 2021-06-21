@@ -202,6 +202,7 @@ jobs:
 
       - name: Check for PR merge
         run: |
+          sleep 10
           ./ve1/bin/check-auto-merge --api-url=${{ github.event.pull_request._links.self.href }}
 
       - name: Block until there is no running workflow
