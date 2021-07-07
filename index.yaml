@@ -288,6 +288,42 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/hashicorp-vault-0.12.10/hashicorp-vault-0.12.10.tgz
     version: 0.12.10
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: 4.7.0
+      charts.openshift.io/digest: sha256:c0a133a4dba73b6f5fc53ae0b4efedfc055b024ac3fe77770142a90a43b3f907
+      charts.openshift.io/lastCertifiedTimestamp: '2021-07-07T22:26:39.313674+00:00'
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2021-07-07T22:35:48.376790+00:00'
+    apiversion: v2
+    appversion: 1.7.2
+    condition: ''
+    dependencies: []
+    deprecated: false
+    description: Official HashiCorp Vault Chart
+    digest: 49524bccec4a9267efb8084a87f07b23b5f201abef6432c67eb91cd713e63d61
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeversion: '>= 1.14.0-0'
+    maintainers: []
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    tags: ''
+    type: ''
+    urls:
+    - https://dperaza4dustbit.github.io/helm-chart/vault-0.12.11.tgz
+    version: 0.12.11
   redhat-nodejs:
   - annotations:
       charts.openshift.io/certifiedOpenShiftVersions: '4.7'
@@ -306,4 +342,4 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/redhat-nodejs-0.0.1/redhat-nodejs-0.0.1.tgz
     version: 0.0.1
-generated: '2021-07-07T22:09:34.042646+00:00'
+generated: '2021-07-07T22:35:48.376790+00:00'
