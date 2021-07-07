@@ -1,5 +1,5 @@
 chart:
-  name: vault
+  name: nodejs
   shortDescription: This is a test repo
 publicPgpKey: null
 users:
@@ -7,5 +7,5 @@ users:
 - githubUsername: baijum
 - githubUsername: dperaza4dustbit
 vendor:
-  label: hashicorp
-  name: Hashicorp Vault Test
+  label: redhat
+  name: NodeJs Build chart
