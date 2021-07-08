@@ -1,0 +1,11 @@
+chart:
+  name: vault
+  shortDescription: This is a test repo
+publicPgpKey: null
+users:
+- githubUsername: mmulholla
+- githubUsername: baijum
+- githubUsername: dperaza4dustbit
+vendor:
+  label: hashicorp
+  name: Hashicorp Vault Test
