@@ -373,4 +373,21 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/redhat-nodejs-0.0.1/redhat-nodejs-0.0.1.tgz
     version: 0.0.1
-generated: '2021-07-08T12:05:56.484230+00:00'
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: '4.7'
+      charts.openshift.io/digest: sha256:e447271fa488962aba92f3f3a71c4338a679ed5670117140ae78b2ca372ef343
+      charts.openshift.io/lastCertifiedTimestamp: '2021-07-08T21:58:46.274635+00:00'
+      charts.openshift.io/provider: NodeJs Build chart
+      charts.openshift.io/providerType: community
+      charts.openshift.io/submissionTimestamp: '2021-07-08T21:59:24.448101+00:00'
+    apiVersion: v2
+    description: A Helm chart to build and deploy Node.js applications
+    digest: 90fc0863a37d558d4f4137e1fee06812778f5de8c95a06528cbbc6bd8186df40
+    keywords:
+    - runtimes
+    - nodejs
+    name: nodejs
+    urls:
+    - https://github.com/dperaza4dustbit/charts/releases/download/redhat-nodejs-0.0.2/redhat-nodejs-0.0.2.tgz
+    version: 0.0.2
+generated: '2021-07-08T21:59:24.448101+00:00'
