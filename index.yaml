@@ -424,4 +424,22 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/redhat-nodejs-ex-k-0.2.1/redhat-nodejs-ex-k-0.2.1.tgz
     version: 0.2.1
-generated: '2021-07-09T18:33:37.471581+00:00'
+  redhat-quarkus:
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: '4.7'
+      charts.openshift.io/digest: sha256:fc2516e2e7350d9edc2dd491348ded34ee97085269b303f26b68eb2a8ec0ef88
+      charts.openshift.io/lastCertifiedTimestamp: '2021-07-09T18:44:27.508365+00:00'
+      charts.openshift.io/provider: Quarkus
+      charts.openshift.io/providerType: community
+      charts.openshift.io/submissionTimestamp: '2021-07-09T18:44:52.115020+00:00'
+    apiVersion: v2
+    description: A Helm chart to build and deploy Quarkus applications
+    digest: 6d8f1b945c037f1f252e532430c21ef723bc11fab369ef26d316fff69c4ffade
+    keywords:
+    - runtimes
+    - quarkus
+    name: quarkus
+    urls:
+    - https://github.com/dperaza4dustbit/charts/releases/download/redhat-quarkus-0.0.3/redhat-quarkus-0.0.3.tgz
+    version: 0.0.3
+generated: '2021-07-09T18:44:52.115020+00:00'
