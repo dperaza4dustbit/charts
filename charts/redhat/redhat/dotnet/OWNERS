@@ -1,9 +1,9 @@
 chart:
-  name: nodejs
+  name: dotnet
   shortDescription: This is a test repo
 publicPgpKey: null
 users:
 - githubUsername: dperaza4dustbit
 vendor:
   label: redhat
-  name: NodeJs Build chart
+  name: DotNet
