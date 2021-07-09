@@ -460,6 +460,23 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/redhat-quarkus-0.0.3/redhat-quarkus-0.0.3.tgz
     version: 0.0.3
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: '4.7'
+      charts.openshift.io/digest: sha256:e51f563205ccc068d341444b75e2d91fe53852af8d7f8e53d01c180581291401
+      charts.openshift.io/lastCertifiedTimestamp: '2021-07-09T20:21:49.622736+00:00'
+      charts.openshift.io/provider: Quarkus
+      charts.openshift.io/providerType: community
+      charts.openshift.io/submissionTimestamp: '2021-07-09T20:22:18.866813+00:00'
+    apiVersion: v2
+    description: A Helm chart to build and deploy Quarkus applications
+    digest: 5759de166ade5aedbc3a0f90440419aab93b8e789eef02831dd9cc93d6ec2db6
+    keywords:
+    - runtimes
+    - quarkus
+    name: quarkus
+    urls:
+    - https://github.com/dperaza4dustbit/charts/releases/download/redhat-quarkus-0.0.4/redhat-quarkus-0.0.4.tgz
+    version: 0.0.4
   redhat-wildfly:
   - annotations:
       charts.openshift.io/certifiedOpenShiftVersions: '4.7'
@@ -486,4 +503,4 @@ entries:
     urls:
     - https://github.com/dperaza4dustbit/charts/releases/download/redhat-wildfly-1.4.0/redhat-wildfly-1.4.0.tgz
     version: 1.4.0
-generated: '2021-07-09T20:11:01.688236+00:00'
+generated: '2021-07-09T20:22:18.866813+00:00'
