@@ -1,0 +1,9 @@
+chart:
+  name: webclient-01
+  shortDescription: Actano private github repo for helm charts
+publicPgpKey: null
+users:
+- githubUsername: dperaza4dustbit
+vendor:
+  label: actano
+  name: ACTANO GmbH
